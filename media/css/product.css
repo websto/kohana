@@ -1,0 +1,263 @@
+/* ------------------------------------- module-category --- */
+.contacts .module-category { display:none;}
+.module-category { border:none; padding:0; margin-bottom:10px; border-radius:0px; position:relative;}
+.module-category h3 { margin-bottom:4px;}
+.module-category .boxIndent {padding:0 0 0 0; border:none; border-top:1px solid #000;}
+
+.module-category .list { margin:0!important; padding:0!important; list-style-type:none;}
+.module-category .list li { font:normal 12px/20px Arial, Helvetica, sans-serif;  float:none;  position:relative;  padding:0px; height:auto; background:none; text-transform:uppercase; border-bottom:1px solid #000; }
+
+.module-category .list li a { color:#fff; text-decoration:none; padding:8px 20px 8px 10px;  display:block; background:url(/media/images/cat_bg.jpg) left top repeat-x;}
+.module-category .list li a:hover, .module-category .list li.active a{ color:#fff; background:#f2041f;}
+
+#screenshot{
+    position:absolute;
+    border:1px solid #000;
+    background:#b52220;
+    padding:5px;
+    display:none;
+    color:#fff;
+    z-index:9999;
+    left:0;
+}
+.module-category .list ul { padding:0; padding-bottom:14px!important; margin:0!important;  border:none; display:none; list-style:none; background:#2e2d2d;}
+
+.module-category .list .level1 li { background:none; padding-left:20px; border:none; padding-top:0; padding-bottom:0; line-height:21px; text-transform:capitalize;}
+.module-category .list .level1 li:first-child { background:none;padding-top:13px;}
+.module-category .list .level1 li a { font-weight:normal; color:#fff; background:none; padding:0; display:inline-block;}
+.module-category .list .level1 li a:hover , .module-category .list .level1 li.active a {  color:#f2041f;}
+
+.module-category .list .level1 .level2 li { padding-top:0; padding-bottom:0;}
+.module-category .list .level1 .level2 li:first-child { background:none; margin-top:0;padding-top:10px;}
+.module-category .list .level1 .level2 li a { font-weight:normal; color:#fff; padding:0;}
+.module-category .list .level1 .level2  li:hover a , .module-category .list .level1 .level2  li.active a {  color:#f2041f;}
+
+.module-category li.parent ul {display:none;}
+.module-category li.parent ul.active {display:block;}
+
+.module-category .VmArrowdown { background:url(../images/arrow.png) 2px 3px no-repeat; height:11px; width:11px; float:none; position:absolute; right:10px; top:13px; padding:0; }
+.module-category .VmArrowdown.expanded { background-position:2px -7px; top:16px; }
+.module-category .list .level1 li .VmArrowdown {top:0px;}
+.module-category .list .level1 li .VmArrowdown.expanded {top:3px;}
+
+/* ------------------------------------- end module-category --- */
+
+/* ------------------------------------- module_special --- */
+
+.module_none { display:none;}
+/* ------------------------------------- end module_special--- */
+
+/* ------------------------------------- module_new --- */
+.module_new  { padding-top:1px; }
+.module_new  h3 { padding-bottom:0px; margin-bottom:0;}
+
+.module_new  .boxIndent { border-top:none; padding-top:11px; padding-bottom:0px }
+
+.vmgroup_new  ul { margin-bottom:-30px;}
+.vmgroup_new  ul li                   { display: block; float: none; padding: 0 0 30px 0; min-height: auto; width: 100%; overflow:hidden; margin: 0 0 0 0; border:none; background:none;}
+.vmgroup_new  ul li  .product-box      { border:1px solid #eaeaea; width:194px; text-align:left; float:left; min-height:0px; margin:0 0 0 10px; padding:17px; padding-bottom:20px; background:none; position:relative;}
+.vmgroup_new  ul li  .product-box:first-child { margin-left:0;}
+
+.vmgroup_new   ul li .browseImage { text-align:center;height:auto; width:100%; margin-top:20px;}
+.vmgroup_new   ul li .browseImage img { text-align:center; width:155px; height:155px;}
+
+.vmgroup_new   ul li .cat {margin:0 0 0 0; text-align:left; padding:0; }
+
+.vmgroup_new   ul li .cat a { color:#a0a0a0; font:normal 16px/22px Arial, Helvetica, sans-serif; text-decoration:none; display:inline-block; text-transform:none;}
+.vmgroup_new   ul li .cat a:hover { color:#121212; text-decoration:none;}
+
+
+.vmgroup_new   ul li .Title {margin:0 0 0 0; text-align:left; padding:0px 0 0 0px; margin-top:-4px; min-height:40px;}
+.vmgroup_new   ul li .Title a { color:#f78f04; font:normal 11px/17px Arial, Helvetica, sans-serif;  text-decoration:none; display:block; text-transform:uppercase;}
+.vmgroup_new   ul li .Title a:hover { text-decoration:none; color:#000;}
+
+.vmgroup_new  ul li .Price .WithoutTax , .vmgroup_new  ul li .Price .discount { display:none;}
+
+
+.vmgroup_new  ul li .Price { color:#303030; font:normal 17px/20px Arial, Helvetica, sans-serif; border-bottom:none; text-align:left; padding:17px 0 0 0px;   z-index:99; float:none;}
+
+.vmgroup_new .description { color:#979797; font:normal 11px/17px Arial, Helvetica, sans-serif; margin:0; padding:9px 0 0 0; text-align:left; margin-bottom:-3px; }
+
+#content .module_new  .quantity-box , .module_new  .quantity-controls , .module_new  .product-fields { display:none;}
+
+#content .module_new  .addtocart-area2 { width:94px; margin:0; padding:0; float:left; }
+
+#content .module_new  .addtocart-bar2 span.addtocart-button { width:94px; height:27px; background:none; display:inline-block; padding:0; margin:0; border-radius:0px; border:none; font-size:0; cursor:pointer;}
+#content .module_new  .addtocart-bar2 input.addtocart-button {width:94px; height:27px; display:inline-block; background:url(/media/images/cart_button.gif) left top repeat-x; border:none;padding:0; margin:0; border-radius:0; border:none; font:bold 11px/26px Arial, Helvetica, sans-serif!important; color:#fff; text-transform:uppercase; letter-spacing:0; text-align:center;}
+#content .module_new  .addtocart-bar2 input.addtocart-button:hover {background-position:left bottom; text-decoration:none; color:#fff;}
+
+@-moz-document url-prefix() {
+  #content .module_new  .addtocart-bar2 input.addtocart-button { padding-bottom:2px;}
+}
+
+.module_new  .Details { float:left; width:66px;  margin-left:7px; padding-top:0px;}
+.module_new  .Details a { font:bold 11px/27px Arial, Helvetica, sans-serif!important; color:#303030;  text-transform:uppercase; display:inline-block; width:auto; height:27px; text-align:center; text-decoration:none;border-radius:0px; padding:0 11px 0 11px!important; background:none;}
+.module_new  .Details a:hover { text-decoration:none; color:#fff; background:#353535; }
+
+/* ------------------------------------- end module_new --- */
+.count { display:none;}
+.module_best{ margin-bottom:18px;}
+.module_best h3 {}
+.module_best .boxIndent { }
+.module_best .cat { display:none;}
+.module_best ul { margin:0!important; padding:11px 0 0 6px!important; list-style:none;}
+.module_best ul .Title { overflow:hidden; width:100%; padding-bottom:13px; min-height:30px;}
+.module_best ul li:first-child .Title { padding-bottom:12px;}
+.module_best ul .Title .count { float:left; font-size:13px; line-height:20px; font-family:Arial, Helvetica, sans-serif; color:#3e3e3e; font-weight:bold; display:block; padding-right:4px;}
+.module_best ul .Title a { float:left; color:#f2041f; font:normal 11px/17px Arial, Helvetica, sans-serif;  text-decoration:none; text-transform:uppercase; width:162px;}
+.module_best ul .Title a:hover { color:#000;}
+
+
+/* ------------------------------------- end module_best --- */
+.module_new2  { padding-top:10px; }
+.module_new2  h3 { padding-bottom:0px; margin-bottom:0;  }
+
+.module_new2  .boxIndent { padding-top:9px; padding-bottom:10px }
+
+.vmgroup_new2  ul { margin-bottom:-30px;}
+.vmgroup_new2  ul li                   { display: block; float: none; padding: 0 0 30px 0; min-height: auto; width: 100%; overflow:hidden; margin: 0 0 0 0; border:none; background:none;}
+.vmgroup_new2  ul li  .product-box      { border:1px solid #eaeaea; width:194px; text-align:left; float:left; min-height:0px; margin:0 0 0 10px; padding:17px; padding-bottom:16px; background:#fff; position:relative;}
+.vmgroup_new2  ul li  .product-box:first-child { margin-left:0;}
+
+.vmgroup_new2   ul li .browseImage { text-align:center;height:auto; width:100%; margin-top:20px;}
+.vmgroup_new2   ul li .browseImage img { text-align:center; width:150px; height:150px;}
+
+.vmgroup_new2   ul li .cat {margin:0 0 0 0; text-align:left; padding:0; }
+
+.vmgroup_new2   ul li .cat a { color:#a0a0a0; font:normal 16px/22px Arial, Helvetica, sans-serif; text-decoration:none; display:inline-block; text-transform:none;}
+.vmgroup_new2   ul li .cat a:hover { color:#121212; text-decoration:none;}
+
+
+.vmgroup_new2  ul li .Title {margin:0 0 0 0; text-align:left; padding:0px 0 0 0px; margin-top:-4px; min-height:40px;}
+.vmgroup_new2   ul li .Title a { color:#f77604; font:normal 11px/17px Arial, Helvetica, sans-serif;  text-decoration:none; display:block; text-transform:uppercase;}
+.vmgroup_new2   ul li .Title a:hover { text-decoration:none; color:#000;}
+
+.vmgroup_new2  ul li .Price .WithoutTax , .vmgroup_new2  ul li .Price .discount { display:none;}
+
+
+.vmgroup_new2  ul li .Price { color:#303030; font:normal 17px/20px Arial, Helvetica, sans-serif; border-bottom:none; text-align:left; padding:20px 0 0 0px;   z-index:99; float:none;}
+.vmgroup_new2  ul li .Price .WithoutTax { color:#f77604; text-decoration:line-through; font:normal 14px/20px Arial, Helvetica, sans-serif; display:inline-block; padding-left:5px;}
+
+.vmgroup_new2 .description { color:#979797; font:normal 11px/17px Arial, Helvetica, sans-serif; margin:0; padding:8px 0 0 0; text-align:left; margin-bottom:-1px; }
+
+#content .module_new2  .quantity-box , .module_new2  .quantity-controls , .module_new2  .product-fields { display:none;}
+
+#content .module_new2  .addtocart-area2 { width:94px; margin:0; padding:0; float:left; }
+
+#content .module_new2  .addtocart-bar2 span.addtocart-button { width:94px; height:27px; background:none; display:inline-block; padding:0; margin:0; border-radius:0px; border:none; font-size:0; cursor:pointer;}
+#content .module_new2  .addtocart-bar2 input.addtocart-button {width:94px; height:27px; display:inline-block; background:url(../images/cart_button.gif) left top repeat-x; border:none;padding:0; margin:0; border-radius:0; border:none; font:bold 11px/26px Arial, Helvetica, sans-serif!important; color:#fff; text-transform:uppercase; letter-spacing:0; text-align:center;}
+#content .module_new2 .addtocart-bar2 input.addtocart-button:hover {background-position:left bottom; text-decoration:none; color:#fff;}
+
+@-moz-document url-prefix() {
+  #content .module_new2  .addtocart-bar2 input.addtocart-button { padding-bottom:2px;}
+}
+
+.module_new2  .Details { float:left; width:66px;  margin-left:7px; padding-top:0px;}
+.module_new2  .Details a { font:bold 11px/27px Arial, Helvetica, sans-serif!important; color:#303030;  text-transform:uppercase; display:inline-block; width:auto; height:27px; text-align:center; text-decoration:none;border-radius:0px; padding:0 11px 0 11px!important; background:none;}
+.module_new2  .Details a:hover { text-decoration:none; color:#fff; background:#353535; }
+
+
+/* ------------------------------------- end module_new2 --- */
+
+.moduletable_manufacturers{  position:relative; background:url(/media/images/manufacturer_bg.jpg) left top no-repeat; border:none; position:relative; border-radius:0;  overflow:hidden; margin:0px 0 10px 0; padding:0 0 0 2px; height:57px; width:950px; }
+
+.moduletable_manufacturers ul { padding:0; margin:0; list-style:none; overflow:hidden;}
+.moduletable_manufacturers ul li {   float:left; position:relative; padding:0px 0 0px 18px; height:auto; width:auto;  }
+.moduletable_manufacturers ul li:first-child {}
+.moduletable_manufacturers ul li a {  text-decoration:none; padding:0; display:block; }
+.moduletable_manufacturers ul li a:hover { color:#960411; font-weight:normal;}
+.moduletable_manufacturers ul li a:hover img , .module_manufacturers ul li.active a img {opacity:0.5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);}
+
+
+/* ------------------------------------- end module_manufacturers --- */
+
+
+/*
+    anythingSlider v1.0
+
+    By Chris Coyier: http://css-tricks.com
+    with major improvements by Doug Neiner: http://pixelgraphics.us/
+    based on work by Remy Sharp: http://jqueryfordesigners.com/
+*/
+
+.wrapper-slide { overflow:hidden;}
+#slider {
+    width: 720px;
+    height: 580px;
+    list-style: none;
+    /* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/***********************
+  COMMON SLIDER STYLING
+ ***********************/
+/* Overall Wrapper: 45px right & left padding for the arrows, 28px @ bottom for navigation */
+div.anythingSlider {
+    display: block;
+    margin: 0 auto;
+    overflow: visible !important; /* needed for Opera and Safari */
+    position: relative;
+    padding: 0;
+    margin-left:-10px;
+}
+/* anythingSlider viewport window */
+div.anythingSlider .anythingWindow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/* anythingSlider base (original element) */
+.anythingBase {
+    background: transparent;
+    list-style: none;
+    position: absolute;
+    overflow: visible !important;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+/* all panels inside the slider */
+.anythingBase .panel {
+    background: transparent;
+    display: block;
+    overflow: hidden;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.anythingBase .panel.vertical {
+    float: none;
+}
+
+/* hide text, target the span so IE7 doesn't text-indent the link */
+#slider li                   { display: block; float: left; padding: 0; min-height: 550px; width: 720px; margin: 0 0 0 0px; border:none; overflow:hidden; }
+#slider ul li  .product-box      { border:1px solid #eee; width:228px; text-align:left; float:left; min-height:262px; margin:0; margin-right:10px; margin-bottom:10px; padding:6px 0 0 0;
+
+}
+.anythingSlider .arrow                  { display: block; height: 30px; width: 30px; background: url(../images/virtuemart/arrows.png) no-repeat 0 0; text-indent: -9999px; position: absolute; bottom: 1px; cursor: pointer; }
+.anythingSlider .forward                { background-position: right bottom; right: 10px; }
+.anythingSlider .back                   { background-position: left top; left: 10px; }
+.anythingSlider .forward:hover          { background-position: right top; }
+.anythingSlider .back:hover             { background-position: left  bottom; }
+
+.anythingSlider .thumbNav                               { position: absolute; right:20px; top: -58px; text-align: center; overflow:hidden; width:auto; }
+.anythingSlider .thumbNav li { margin:0; padding:0; float:left; width:19px; height: 36px;margin-left:3px;}
+.anythingSlider .thumbNav a                             { text-indent:-9999px; display:inline-block; padding:0;  width:19px; height: 36px; margin: 0 0 0 0; text-align: center; text-decoration:none;
+    background:url(../images/virtuemart/bullets.png) right top no-repeat;  }
+.anythingSlider .thumbNav a:hover , .anythingSlider .thumbNav a.cur                       { background-position:left top; }
+
+.start-stop                             { color: #575656; font:normal 13px/28px Arial, Helvetica, sans-serif; padding: 2px 5px; width: 40px; text-align: center; position: absolute; right: 45px; bottom:-4px;
+    text-decoration:none; display:block; }
+#start-stop.playing  , #start-stop:hover    { text-decoration: underline; }
+
+/*
+  Prevents
+*/
+.anythingSlider .wrapper-box ul ul          { position: static; margin: 0; background: none; overflow: visible; width: auto; border: 0; }
+.anythingSlider .wrapper-box ul ul li       { float: none; height: auto; width: auto; background: none; }
+
+/* ------------------------------------- end module_special slider --- */

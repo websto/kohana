@@ -1,0 +1,117 @@
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row { margin-top: -35px;
+    width: 100%;
+    max-width: 1140px;
+    min-width: 320px;
+   /* margin: 0 auto;  */
+    overflow: hidden;
+    position:relative;
+}
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11 {
+    margin-left: 0.8%;
+    float: left;
+    min-height: 1px;
+}
+
+.grid_3.left {margin-left:0px; margin-right: 3.8%;}
+
+.row .grid_1 {width: 4.85%;}
+
+.row .grid_2 {width: 13.45%;}
+
+.row .grid_3 {width: 22.12%;}
+
+.row .grid_4 {width: 30.75%;}
+
+.row .grid_5 {width: 39.45%;}
+
+.row .grid_6 {width: 54.1%;}
+
+.row .grid_7 {width: 56.75%;}
+
+.row .grid_8 {width: 65.4%;}
+
+.row .grid_9 {width: 74.05%;}
+
+.row .grid_10 {width: 82.7%;}
+
+.row .grid_11 {width: 91.35%;}
+
+.row .grid_12 {
+    width: 100%;
+    float: left;
+}
+
+.row .grid_1:first-child,
+.row .grid_2:first-child,
+.row .grid_3:first-child,
+.row .grid_4:first-child,
+.row .grid_5:first-child,
+.row .grid_6:first-child,
+.row .grid_7:first-child,
+.row .grid_8:first-child,
+.row .grid_9:first-child,
+.row .grid_10:first-child,
+.row .grid_11:first-child,
+.row .grid_12:first-child {
+    margin-left: 0px;
+}
+
+
+.alpha {margin-left: 0px;}
+
+
+
+
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+    body {}
+
+}
+
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+
+    body {
+        font-size: 16px;
+        -webkit-text-size-adjust: none;
+    }
+
+    .row, body {
+        width: 100%;
+        min-width: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .container {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .row .grid_1, .row .grid_2, .row .grid_3, .row .grid_4, .row .grid_5, .row .grid_6, .row .grid_7, .row .grid_8, .row .grid_9, .row .grid_10, .row .grid_11, .row .grid_12  {
+        width: auto;
+        float: none;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .row .grid_3.left {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
