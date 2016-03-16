@@ -26,22 +26,7 @@
     <script type='text/javascript' src='/media/js/jquery-ui.js'></script>
 
  <!-- Custom CSS -->
-<?php if(strpos($_SERVER['HTTP_USER_AGENT'],'MSIE')!== false):?>
-    <html class="ie ie9" dir="ltr" lang="en-US">
-    <html dir="ltr" lang="en-US">
 
-<script type="text/javascript">
-    document.createElement('header');
-    document.createElement('nav');
-    document.createElement('section');
-    document.createElement('article');
-    document.createElement('aside');
-    document.createElement('footer');
-    document.createElement('hgroup');
-    document.createElement('time');
-</script>
-
-    <?php endif;?>
 </head>
 <body class="home page page-id-203 page-template page-template-page-home-php"> <?php ProfilerToolbar::render(true); ?>
 <div class="bg-top" style="margin-top: -20px;"><!-- this encompasses the entire Web site -->
